@@ -8,3 +8,7 @@ export const users = [
 export function findByUsername(username) {
     return users.find(u => u.username === username) ?? null;
 }
+
+export function findById(id) {
+    return users.find(u => u.id === id) ?? null;
+}
