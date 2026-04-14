@@ -31,7 +31,7 @@ src/
 ## Instalação
 
 ```bash
-git clone <url-do-repositorio>
+git clone https://github.com/Guilherme-Tavares/jwt-module
 cd jwt-module
 npm install
 ```
