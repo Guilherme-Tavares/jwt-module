@@ -1,0 +1,21 @@
+{
+  "name": "jwt-module",
+  "version": "0.0.1",
+  "description": "JWT authentication module for a REST API — access tokens, refresh tokens, and role-based route protection.",
+  "license": "MIT",
+  "author": "Guilherme Tavares",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev:server": "nodemon src/app.js",
+    "start:server": "node src/app.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
